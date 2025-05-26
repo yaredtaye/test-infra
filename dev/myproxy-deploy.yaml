@@ -19,6 +19,6 @@ spec:
         app: myproxy
     spec:
       containers:
-      - image: nginx:1.28.0
+      - image: nginx:latest
         name: nginx
         resources: {}
