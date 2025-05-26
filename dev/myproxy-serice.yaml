@@ -5,6 +5,7 @@ metadata:
   labels:
     app: myproxy
   name: myproxy
+  namespace: myapp
 spec:
   ports:
   - port: 80

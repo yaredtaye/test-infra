@@ -5,6 +5,7 @@ metadata:
   labels:
     app: myproxy
   name: myproxy
+  namespace: myapp
 spec:
   replicas: 1
   selector:
@@ -21,4 +22,3 @@ spec:
       - image: nginx:1.28.0
         name: nginx
         resources: {}
-status: {}
